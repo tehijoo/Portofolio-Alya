@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/styles.css">
+    <title>It's Alya's Page</title>
+    <link rel="icon" href="assets/images/favicon.png" type="image/png">
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <style>
+        #map {
+            height: 383px; /* Adjust as needed */
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <!-- OVERLAY -->
+    <div class="overlay first"></div>
+    <div class="overlay second"></div>
+    <div class="overlay third"></div>
+
+    <!-- HEADER -->
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="#" class="nav__logo">Alya's Page.</a>
+            </div>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#education" class="nav__link">Educational Background</a></li>
+                    <li class="nav__item"><a href="#skill-abilities" class="nav__link">Skill Abilities</a></li>
+                    <li class="nav__item"><a href="#social-media" class="nav__link">Social Media</a></li>
+                    <li class="nav__item"><a href="#portofolio-project" class="nav__link">Portfolio Project</a></li>
+                </ul>
+            </div>
+            <div class="nav__toggle" id="nav-toggle">
+                <ion-icon name="menu"></ion-icon>
+            </div>
+        </nav>
+    </header>
+
+    <!-- MAIN -->
+    <main class="l-main bd-grid">
+        <!-- HOME SECTION -->
+        <div class="home" id="home">
+            <div class="home__information">
+                <span class="home__pressent anime-text">Hello, My name is</span>
+                <h1 class="home__title anime-text">Alya Rahmatillah</h1>
+                <h1 class="home__title anime-text">Machmud</h1>
+                <span class="home__skill anime-text">PORTFOLIO.</span>
+                
+                <div>
+                    <a href="https://drive.google.com/file/d/105O8pzIvuu8euemwH3HlBiFlkNl1XC5J/view?usp=sharing" target="_blank" class="home__button anime-text">
+                        MY CV <a>
+                </div>
+            </div>
+
+            <div class="home__img">
+                <a href='https://postimg.cc/hQnyL81w' target='_blank'>
+                    <img src='https://i.postimg.cc/XqGR0QGV/161-2.jpg' border='0' alt='161-2'/>
+                </a>
+            </div>
+            
+            <div class="home__social">
+                <a href="https://www.linkedin.com/in/alyarahmatillahmachmud/" target="_blank">
+                    <ion-icon name="logo-linkedin" class="home__social-icon"></ion-icon>
+                </a>
+                <a href="https://www.instagram.com/alyarmtilh" target="_blank">
+                    <ion-icon name="logo-instagram" class="home__social-icon"></ion-icon>
+                </a>
+                <a href="https://open.spotify.com/playlist/5aDG7IGLTGcAQvC0QlgX9L?si=tpFKww3fSvO_XB-IYBsiVg&pi=O4q_NbbuS9uAp" target="_blank">
+                    <svg class="home__social-icon" style="width: 24px; height: 24px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 168 168">
+                        <circle cx="84" cy="84" r="84" fill="#000" />
+                        <path d="M124.5 114.9c-2.2 3.5-6.9 4.6-10.5 2.5-28.8-17.4-65-21.3-107.6-11.2-4 .9-8-1.3-8.9-5.2s1.3-8 5.2-8.9c46.2-10.8 87.6-6.3 120.6 13.4 3.6 2.1 4.6 6.8 2.5 10.5zm13-28.7c-2.9 4.7-9 6.1-13.7 3.2-33.6-20.2-85-26.1-124.3-13.7-5.1 1.6-10.5-1.2-12-6.4-1.6-5.1 1.2-10.5 6.4-12C62.6 49.5 121.2 56.2 159 80.2c4.7 2.9 6.1 9 3.2 13.7zm0-28.7c-2.9 4.7-9 6.1-13.7 3.2-33.6-20.2-85-26.1-124.3-13.7-5.1 1.6-10.5-1.2-12-6.4-1.6-5.1 1.2-10.5 6.4-12C62.6 21.5 121.2 28.2 159 52.2c4.7 2.9 6.1 9 3.2 13.7z" fill="#6A0DAD"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+
+       <!-- About Section -->
+        <div class="container" id="about">
+            <div class="section">
+                <h2>About Me</h2>
+                <p>Hello! My name is Alya Rahmatillah Machmud, and I am passionate about a variety of creative and technical fields. While I am deeply invested in web development, I am also experienced in graphic design, branding, UI/UX, and photography. These diverse skills allow me to craft visually compelling and user-centered digital experiences.</p>
+                
+                <p><strong>Web Development:</strong> My web development expertise enables me to build dynamic, responsive websites. I enjoy working with modern web technologies and aim to create intuitive and engaging user interfaces that blend functionality with aesthetics.</p>
+                
+                <p><strong>Branding & Graphic Design:</strong> As a graphic designer, I specialize in branding and editorial design. I love helping brands create visual identities that communicate their values and resonate with their target audience. From logos to editorial layouts, I ensure every element aligns with the overall brand strategy.</p>
+                
+                <p><strong>UI/UX Design:</strong> With a keen interest in user experience design, I focus on creating interfaces that are not only beautiful but also easy to navigate. My goal is to enhance user satisfaction by improving the usability, accessibility, and enjoyment of interacting with products and services.</p>
+
+                <p><strong>Photography:</strong> As a photographer, I capture moments that tell a story. I believe that good photography can convey powerful messages and evoke emotions. My portfolio includes street photography, landscapes, and portraits, all showcasing my love for composition and detail.</p>
+
+                <p>By combining these skills, I aim to create holistic digital solutions that are visually stunning and highly functional, whether it's for a website, a brand identity, or a photo series.</p>
+            </div>
+        </div> <br> <br>
+
+
+
+
+        <!-- Education Section -->
+        <div class="container" id="education">
+            <div class="section">
+                <h2>Educational Background</h2>
+                <div class="timeline">
+                    <div class="container-timeline left">
+                        <div class="content">
+                            <h2>MTSs Jeumala Amal</h2>
+                            <p>Studied from 2017 to 2020 at MTSs Jeumala Amal.</p>
+                        </div>
+                    </div>
+                    <div class="container-timeline right">
+                        <div class="content">
+                            <h2>MAS Jeumala Amal</h2>
+                            <p>Studied from 2020 to 2023 at MAS Jeumala Amal, focusing on Science.</p>
+                        </div>
+                    </div>
+                    <div class="container-timeline left">
+                        <div class="content">
+                            <h2>Institut Teknologi Sepuluh Nopember (ITS)</h2>
+                            <p>Undergraduate Informatics Engineering</p>
+                        </div>
+                    </div>
+                </div>
+                <div id="map"></div> <!-- Peta dengan Leaflet -->
+            </div>
+        </div>
+
+
+        <!-- Skill Abilities Section -->
+        <div class="container" id="skill-abilities">
+            <div class="section">
+                <h2>Skill Abilities</h2>
+                <div class="skill">
+                    <h3>Graphic Design (Branding, Editorial)</h3>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 82%;"></div>
+                    </div>
+                    <span class="skill-percentage">82%</span>
+                </div>
+
+                <div class="skill">
+                    <h3>Photography</h3>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 98%;"></div>
+                    </div>
+                    <span class="skill-percentage">98%</span>
+                </div>
+
+                <div class="skill">
+                    <h3>UI/UX</h3>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 76%;"></div>
+                    </div>
+                    <span class="skill-percentage">76%</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Social Media Section -->
+        <div class="container" id="social-media">
+            <div class="section">
+                <h2>Social Media</h2>
+                <div class="social-media-grid">
+                    <div class="social-item">
+                        <a href="https://www.instagram.com/alyarmtilh" target="_blank">
+                            <img src="assets/instagram.png" alt="Instagram" class="social-icon">
+                        </a>
+                        <p>Instagram</p>
+                    </div>
+                    <div class="social-item">
+                        <a href="https://www.linkedin.com/in/alyarahmatillahmachmud/" target="_blank">
+                            <img src="assets/linkedin.png" alt="LinkedIn" class="social-icon">
+                        </a>
+                        <p>LinkedIn</p>
+                    </div>
+                    <div class="social-item">
+                        <a href="https://www.tiktok.com/@aleeaa__" target="_blank">
+                            <img src="assets/tiktok.png" alt="TikTok" class="social-icon">
+                        </a>
+                        <p>TikTok</p>
+                    </div>
+                </div>
+            </div>
+        </div> <br> <br>
+
+        <!-- Portofolio Project Section -->
+        <div class="container" id="portofolio-project">
+            <div class="section">
+                <h2>Portfolio Project</h2>
+        
+                <!-- Project 1: GitHub Project -->
+                <div class="project-item">
+                    <img src="assets/discord.png" alt="GitHub Project" class="project-image">
+                    <div class="project-details">
+                        <h3>GitHub Project</h3>
+                        <p>Many projects are hosted on GitHub using HTML, CSS, JavaScript, Python and PHP. The website showcases my web development skills, featuring animations, interactive elements, and a clean, professional design.</p>
+                        <a href="https://github.com/tehijoo" target="_blank">View Project</a>
+                    </div>
+                </div>
+                
+
+                <!-- Project 2: Figma Project -->
+                <div class="project-item">
+                    <img src="assets/figma.png" alt="Figma Project" class="project-image">
+                    <div class="project-details">
+                        <h3>Figma Project</h3>
+                        <p>This project showcases my design process from concept to execution using Figma. It includes wireframes, mockups, and prototypes for a portfolio website aimed at creating a seamless user experience with visually appealing elements.</p>
+                        <a href="https://instagram.com/kmi_its" target="_blank">View Project</a>
+                    </div>
+                </div>
+                
+        
+               <!-- Slideshow Foto -->
+            <div class="project-slideshow">
+                <h3>Photography Portfolio</h3>
+                <div class="slideshow-container">
+
+                    <!-- Foto 1 -->
+                    <div class="slide fade">
+                        <img src="assets/foto1.jpg" alt="Photo in Surabaya">
+                        <div class="photo-caption">Surabaya - Kya Kya Street</div>
+                    </div>
+
+                    <!-- Foto 2 -->
+                    <div class="slide fade">
+                        <img src="assets/foto2.jpg" alt="Photo in Bandung">
+                        <div class="photo-caption">Surabaya - Taman Alumni</div>
+                    </div>
+
+                    <!-- Foto 3 -->
+                    <div class="slide fade">
+                        <img src="assets/foto3.jpg" alt="Photo in Jakarta">
+                        <div class="photo-caption">Aceh - Pusong Beach</div>
+                    </div>
+
+                    <!-- Foto 4 -->
+                    <div class="slide fade">
+                        <img src="assets/foto4.jpg" alt="Photo in Bali">
+                        <div class="photo-caption">Surabaya - Old Town</div>
+                    </div>
+
+                    <!-- Foto 5 -->
+                    <div class="slide fade">
+                        <img src="assets/foto5.jpg" alt="Photo in Yogyakarta">
+                        <div class="photo-caption">Bandung - Pengabdi Setan's House</div>
+                    </div>
+
+                    <!-- Foto 6 -->
+                    <div class="slide fade">
+                        <img src="assets/foto6.jpg" alt="Photo in Lombok">
+                        <div class="photo-caption">Blitar - Mount Kelud</div>
+                    </div>
+
+                    <!-- Foto 7 -->
+                    <div class="slide fade">
+                        <img src="assets/foto7.jpg" alt="Photo in Semarang">
+                        <div class="photo-caption">Surabaya - Tower 1 ITS</div>
+                    </div>
+
+                    <!-- Foto 8 -->
+                    <div class="slide fade">
+                        <img src="assets/foto8.jpg" alt="Photo in Palembang">
+                        <div class="photo-caption">Jakarta - Old Batavia</div>
+                    </div>
+
+                    <!-- Foto 9 -->
+                    <div class="slide fade">
+                        <img src="assets/foto9.jpg" alt="Photo in Medan">
+                        <div class="photo-caption">Jogyakarta - Sonobudoyo Meseum</div>
+                    </div>
+
+                    <!-- Foto 10 -->
+                    <div class="slide fade">
+                        <img src="assets/foto10.jpg" alt="Photo in Malang">
+                        <div class="photo-caption">Surabaya - North Quay</div>
+                    </div>
+
+                    <!-- Tombol navigasi slide -->
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                </div>
+                
+                <!-- Titik navigasi -->
+                <br>
+                <div style="text-align:center">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                    <span class="dot" onclick="currentSlide(4)"></span>
+                    <span class="dot" onclick="currentSlide(5)"></span>
+                    <span class="dot" onclick="currentSlide(6)"></span>
+                    <span class="dot" onclick="currentSlide(7)"></span>
+                    <span class="dot" onclick="currentSlide(8)"></span>
+                    <span class="dot" onclick="currentSlide(9)"></span>
+                    <span class="dot" onclick="currentSlide(10)"></span>
+                </div>
+            </div>
+
+        </div>
+            <!-- FOOTER -->
+            <footer class="footer">
+                <div class="container">
+                    <p>© 2024 Alya Rahmatillah Machmud. All rights reserved.</p>
+                    <p>Need to contact me? Reach out on WhatsApp:</p>
+                    <a href="https://wa.me/6282235788376" target="_blank" class="whatsapp-link">
+                        <ion-icon name="logo-whatsapp"></ion-icon> +62 822 3578 8376
+                    </a>
+                </div>
+    </footer>
+
+        </div>
+        
+    </main>
+
+    <!-- GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.4/gsap.min.js"></script>
+
+    <!-- Leaflet JS -->
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script>
+        // Inisialisasi peta
+        var map = L.map('map').setView([5.254671, 96.055955], 13);
+
+        // Tambahkan layer peta gelap
+        L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+            attribution: '&copy; <a href="https://carto.com/">CartoDB</a>'
+        }).addTo(map);
+
+        // Tambahkan marker dengan ikon khusus
+        var customIcon = L.icon({
+            iconUrl: 'assets/alamat.png', 
+            iconSize: [32, 32], 
+            iconAnchor: [16, 32], // Titik di ikon yang akan diletakkan pada posisi marker
+            popupAnchor: [0, -32] // Titik popup muncul dari ikon
+        });
+
+        L.marker([5.254671, 96.055955], { icon: customIcon }).addTo(map)
+            .bindPopup('MY SENIOR HIGH SCHOOL')
+            .openPopup();
+    </script>
+
+    <!-- MAIN -->
+    <script src="assets/main.js"></script>
+    
+    <!-- ICONS -->
+    <script type="module" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.esm.js"></script>
+</body>
+</html>
